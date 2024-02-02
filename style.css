@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.speech {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #48cae4;
+}
+
+p {
+    color: #fff;
+    font-size: 3rem;
+}
+
+textarea {
+    width: 40%;
+    height: 40%;
+    margin: 50px auto;
+    padding: 1rem;
+    outline: 0;
+    border: none;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+textarea::-webkit-scrollbar {
+    width: 12px;
+    background-color: whitesmoke;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: darkgray;
+}
+
+.fas {
+    font-weight: 600;
+    font-size: 3rem;
+    min-width: 4rem;
+}
+
+button {
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.fa-trash-alt {
+    color: #ef233c;
+}
