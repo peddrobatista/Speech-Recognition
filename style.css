@@ -57,3 +57,12 @@ button {
 .fa-trash-alt {
     color: #ef233c;
 }
+
+@media (max-width: 700px) {
+    p {
+        font-size: 2rem;
+    }
+    .fas {
+        min-width: 3rem;
+    }
+}
